@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
     findViewById<Button>(R.id.button).setOnClickListener {
       findViewById<TextView>(R.id.text).setText("OK")
+      //bla bla
     }
   }
 }
